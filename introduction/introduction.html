@@ -1,0 +1,931 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<<<<<<< HEAD
+        <title>脚本引擎概论 · GitBook</title>
+=======
+        <title>何为脚本引擎 · GitBook</title>
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+<<<<<<< HEAD
+    <link rel="next" href="minecraft_working_model.html" />
+    
+    
+    <link rel="prev" href="./" />
+=======
+    <link rel="next" href="history.html" />
+    
+    
+    <link rel="prev" href="minecraft_working_model.html" />
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    指南导读
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">I 开始之前</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    导论
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+<<<<<<< HEAD
+        <li class="chapter active" data-level="2.1.1" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    脚本引擎概论
+=======
+        <li class="chapter " data-level="2.1.1" data-path="minecraft_working_model.html">
+            
+                <a href="minecraft_working_model.html">
+            
+                    
+                    Minecraft运作模型
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+<<<<<<< HEAD
+        <li class="chapter " data-level="2.1.1.1" data-path="minecraft_working_model.html">
+            
+                <a href="minecraft_working_model.html">
+            
+                    
+                    Minecraft运作模型
+=======
+        <li class="chapter active" data-level="2.1.1.1" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    何为脚本引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="history.html">
+            
+                <a href="history.html">
+            
+                    
+                    脚本引擎发展浅述
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../pre_knowledge/">
+            
+                <a href="../pre_knowledge/">
+            
+                    
+                    前置知识
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../pre_knowledge/json.html">
+            
+                <a href="../pre_knowledge/json.html">
+            
+                    
+                    JSON格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../pre_knowledge/javascript.md">
+            
+                <span>
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../pre_knowledge/addon_structure.html">
+            
+                <a href="../pre_knowledge/addon_structure.html">
+            
+                    
+                    附加包结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../pre_knowledge/resource_pack.html">
+            
+                <a href="../pre_knowledge/resource_pack.html">
+            
+                    
+                    资源包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../pre_knowledge/behavior_pack.html">
+            
+                <a href="../pre_knowledge/behavior_pack.html">
+            
+                    
+                    行为包
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">II 基础篇</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../getting_start.html">
+            
+                <a href="../getting_start.html">
+            
+                    
+                    构建工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../system/">
+            
+                <a href="../system/">
+            
+                    
+                    系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="../system/obtain.html">
+            
+                <a href="../system/obtain.html">
+            
+                    
+                    系统的获取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="../system/callback_function.html">
+            
+                <a href="../system/callback_function.html">
+            
+                    
+                    回调函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../prefabricated_object.html">
+            
+                <a href="../prefabricated_object.html">
+            
+                    
+                    预制对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../life_cycle.html">
+            
+                <a href="../life_cycle.html">
+            
+                    
+                    生命周期
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../event/">
+            
+                <a href="../event/">
+            
+                    
+                    事件系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.5.1" data-path="../event/hello_world.html">
+            
+                <a href="../event/hello_world.html">
+            
+                    
+                    Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5.2" data-path="../event/listen_and_broadcast.html">
+            
+                <a href="../event/listen_and_broadcast.html">
+            
+                    
+                    监听与广播
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5.3" data-path="../event/trigger-able_event.html">
+            
+                <a href="../event/trigger-able_event.html">
+            
+                    
+                    可触发事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5.4" data-path="../event/custom.html">
+            
+                <a href="../event/custom.html">
+            
+                    
+                    自定义事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../component/">
+            
+                <a href="../component/">
+            
+                    
+                    组件系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.6.1" data-path="../component/use.html">
+            
+                <a href="../component/use.html">
+            
+                    
+                    组件的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6.2" data-path="../component/custom.html">
+            
+                <a href="../component/custom.html">
+            
+                    
+                    自定义组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../entity.html">
+            
+                <a href="../entity.html">
+            
+                    
+                    实体交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../custom_ui/">
+            
+                <a href="../custom_ui/">
+            
+                    
+                    自定义UI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.8.1" data-path="../custom_ui/first_ui.html">
+            
+                <a href="../custom_ui/first_ui.html">
+            
+                    
+                    第一个UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.2" data-path="../custom_ui/data_transmission.html">
+            
+                <a href="../custom_ui/data_transmission.html">
+            
+                    
+                    前后端数据交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">III 进阶篇</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../multiplayer_adaptation.html">
+            
+                <a href="../multiplayer_adaptation.html">
+            
+                    
+                    多人联机适配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../pseudo_data_storage.html">
+            
+                <a href="../pseudo_data_storage.html">
+            
+                    
+                    伪数据储存的实现 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../custom_ui.html">
+            
+                <a href="../custom_ui.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../ui_drawing/">
+            
+                <a href="../ui_drawing/">
+            
+                    
+                    UI绘制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">IV 实战篇</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../actual_combat/unknow.html">
+            
+                <a href="../actual_combat/unknow.html">
+            
+                    
+                    ？？？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../actual_combat/unknow.html">
+            
+                <a href="../actual_combat/unknow.html">
+            
+                    
+                    ？？？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../actual_combat/unknow.html">
+            
+                <a href="../actual_combat/unknow.html">
+            
+                    
+                    ？？？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">V 文档</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../document/prefabricated_object.html">
+            
+                <a href="../document/prefabricated_object.html">
+            
+                    
+                    预制对象文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../document/system_function.html">
+            
+                <a href="../document/system_function.html">
+            
+                    
+                    系统函数文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../document/component.html">
+            
+                <a href="../document/component.html">
+            
+                    
+                    组件文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../document/trigger-able_event.html">
+            
+                <a href="../document/trigger-able_event.html">
+            
+                    
+                    可触发事件文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../document/listenable_event.html">
+            
+                <a href="../document/listenable_event.html">
+            
+                    
+                    可监听事件文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+<<<<<<< HEAD
+        <a href=".." >脚本引擎概论</a>
+=======
+        <a href=".." >何为脚本引擎</a>
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+<<<<<<< HEAD
+                                <h1 id="&#x811A;&#x672C;&#x5F15;&#x64CE;&#x6982;&#x8BBA;">&#x811A;&#x672C;&#x5F15;&#x64CE;&#x6982;&#x8BBA;</h1>
+<p>&#x5BF9;&#x4E8E;&#x57FA;&#x5CA9;&#x7248;&#x73A9;&#x5BB6;&#x4EEC;&#x6765;&#x8BF4;&#xFF0C;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x7684;&#x51FA;&#x73B0;&#x662F;&#x4EE4;&#x4EBA;&#x5174;&#x594B;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4F3C;&#x4E4E;&#x8BA9;&#x6211;&#x4EEC;&#x7AA5;&#x89C1;&#x4E86;&#x57FA;&#x5CA9;&#x7248;&#x672A;&#x6765;&#x7684;&#x5176;&#x4E2D;&#x4E00;&#x9685;</p>
+<h3 id="&#x4F55;&#x4E3A;&#x811A;&#x672C;&#x5F15;&#x64CE;">&#x4F55;&#x4E3A;&#x811A;&#x672C;&#x5F15;&#x64CE;</h3>
+<p>&#x672C;&#x8282;&#x6211;&#x4EEC;&#x6765;&#x8C08;&#x8C08;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x7A76;&#x7ADF;&#x662F;&#x4EC0;&#x4E48;&#x3002;</p>
+<p>&#x811A;&#x672C;&#x5F15;&#x64CE;&#x662F;mojang&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;&#x4E00;&#x6B3E;&#x8DE8;&#x5E73;&#x53F0;Mod API<sup><a href="#fn_1" id="reffn_1">1</a></sup>&#xFF0C;&#x4F7F;&#x7528;JavaScript&#x8BED;&#x8A00;&#x7F16;&#x5199;&#x3002;&#x76EE;&#x524D;&#x4ECD;&#x5904;&#x4E8E;<strong>Beta&#x6D4B;&#x8BD5;&#x9636;&#x6BB5;</strong>&#xFF0C;&#x8FD8;&#x5728;&#x4E0D;&#x65AD;&#x66F4;&#x65B0;&#x7740;&#x3002;</p>
+<p>&#x76F8;&#x6BD4;Java Mod&#x7684;&#x201C;&#x76F4;&#x63A5;&#x7F16;&#x8F91;&#x6E90;&#x7801;&#x201D;&#x6765;&#x8BF4;&#xFF0C;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x66F4;&#x50CF;&#x662F;Minecraft&#x7684;&#x4E00;&#x4E2A;&#x53EF;&#x62C6;&#x5378;&#x96F6;&#x90E8;&#x4EF6;&#xFF0C;&#x7F16;&#x5199;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x65F6;&#xFF0C;&#x60A8;&#x4E0E;Minecraft&#x7684;&#x5E95;&#x5C42;&#x6E90;&#x7801;&#x5E76;&#x65E0;&#x4EA4;&#x96C6;&#xFF0C;&#x4ED6;&#x4EEC;&#x4F7F;&#x7528;&#x7684;&#x751A;&#x81F3;&#x90FD;&#x4E0D;&#x662F;&#x540C;&#x4E00;&#x95E8;&#x8BED;&#x8A00;<sup><a href="#fn_2" id="reffn_2">2</a></sup>&#x3002;&#x5B98;&#x65B9;&#x5C06;&#x6240;&#x6709;&#x53EF;&#x7528;&#x63A5;&#x53E3;&#x5C01;&#x88C5;&#x597D;&#x540E;&#x66B4;&#x9732;&#x7ED9;&#x73A9;&#x5BB6;&#x4F7F;&#x7528;&#xFF0C;&#x4E14;&#x4F7F;&#x7528;JavaScript&#x8BED;&#x8A00;&#x4F5C;&#x4E3A;&#x5176;&#x8F7D;&#x4F53;&#xFF0C;&#x4E00;&#x5B9A;&#x7A0B;&#x5EA6;&#x4E0A;&#x964D;&#x4F4E;&#x4E86;&#x4E0A;&#x624B;&#x7684;&#x96BE;&#x5EA6;&#x3002;</p>
+<p>&#x867D;&#x8BF4;&#x662F;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;API&#xFF0C;&#x53EF;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x76EE;&#x524D;&#x5E76;&#x4E0D;&#x5B8C;&#x5584;<sup><a href="#fn_3" id="reffn_3">3</a></sup>,&#x7279;&#x522B;&#x662F;&#x4E0E;Java Mod API&#x76F8;&#x6BD4;&#xFF0C;&#x8FD9;&#x4E00;&#x70B9;&#x60A8;&#x5728;&#x4E4B;&#x540E;&#x5B66;&#x4E60;&#x4E2D;&#x7684;&#x611F;&#x53D7;&#x5C06;&#x4F1A;&#x6108;&#x53D1;&#x5F3A;&#x70C8;&#x3002;&#x60A8;&#x5FC5;&#x987B;&#x660E;&#x767D;&#xFF0C;<strong>&#x811A;&#x672C;&#x5F15;&#x64CE;&#x76EE;&#x524D;&#x4ECD;&#x5904;&#x4E8E;&#x6D4B;&#x8BD5;&#x5F00;&#x53D1;&#x9636;&#x6BB5;&#xFF0C;&#x53EF;&#x80FD;&#x65E0;&#x6CD5;&#x6EE1;&#x8DB3;&#x60A8;&#x7684;&#x6240;&#x6709;&#x9700;&#x6C42;</strong>&#xFF0C;&#x6240;&#x4EE5;&#x8BF7;&#x60A8;&#x653E;&#x5E73;&#x5FC3;&#x6001;&#xFF0C;&#x671F;&#x5F85;&#x5B98;&#x65B9;&#x7684;&#x66F4;&#x65B0;&#x3002;</p>
+<h3 id="&#x5982;&#x4F55;&#x5FEB;&#x901F;&#x4E0A;&#x624B;">&#x5982;&#x4F55;&#x5FEB;&#x901F;&#x4E0A;&#x624B;</h3>
+<ol>
+<li>&#x9996;&#x5148;&#x60A8;&#x5F97;&#x638C;&#x63E1;&#x7528;&#x4E8E;&#x4E66;&#x5199;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x4EE3;&#x7801;&#x7684;JavaScript&#x8BED;&#x8A00;&#xFF0C;&#x672C;&#x6307;&#x5357;&#x7684;&#x524D;&#x7F6E;&#x77E5;&#x8BC6;&#x7AE0;&#x8282;&#x4E5F;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x4E86;&#x7B80;&#x8981;&#x7684;&#x4ECB;&#x7ECD;&#x5E76;&#x63D0;&#x4F9B;&#x4E86;&#x6DF1;&#x5165;&#x5B66;&#x4E60;&#x7684;&#x76F8;&#x5173;&#x6750;&#x6599;&#x3002;&#x5373;&#x4F7F;&#x60A8;&#x5E76;&#x4E0D;&#x5177;&#x5907;&#x4EFB;&#x4F55;&#x7F16;&#x7A0B;&#x57FA;&#x7840;&#x4E5F;&#x4E0D;&#x8981;&#x60CA;&#x614C;&#xFF0C;&#x4F5C;&#x4E3A;&#x677E;&#x6563;&#x578B;&#x53D8;&#x91CF;&#x8BED;&#x8A00;&#xFF0C;JavaScript&#x5BF9;&#x65B0;&#x624B;&#x6765;&#x8BF4;&#x76F8;&#x5BF9;&#x53CB;&#x597D;&#xFF0C;&#x4E0A;&#x624B;&#x8D77;&#x6765;&#x4E5F;&#x4E0D;&#x5177;&#x6709;&#x592A;&#x5927;&#x7684;&#x96BE;&#x5EA6;&#x3002;</li>
+<li>&#x60A8;&#x5FC5;&#x987B;&#x4E86;&#x89E3;Minecraft&#x8FD9;&#x4E2A;&#x6E38;&#x620F;&#x672C;&#x8EAB;&#x3002;&#x6BD4;&#x5982;&#x77FF;&#x77F3;&#x7684;&#x751F;&#x6210;&#x89C4;&#x5F8B;&#x3001;&#x65B9;&#x5757;&#x4E0E;&#x5B9E;&#x4F53;&#x7684;&#x6982;&#x5FF5;&#x3001;&#x6E38;&#x620F;&#x523B;&#x662F;&#x4EC0;&#x4E48;&#x7B49;&#x7B49;&#x3002;&#x5982;&#x679C;&#x60A8;&#x5BF9;Minecraft&#x4E16;&#x754C;&#x662F;&#x5982;&#x4F55;&#x8FD0;&#x8F6C;&#x7684;&#x5E76;&#x4E0D;&#x5177;&#x5907;&#x5F88;&#x597D;&#x7684;&#x8BA4;&#x8BC6;&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x63A8;&#x8350;&#x4E14;&#x4EC5;&#x63A8;&#x8350;&#x60A8;&#x9605;&#x8BFB;<a href="https://wiki.biligame.com/mc/Minecraft_Wiki?hmsr=&#x6E38;&#x620F;&#x4E2D;&#x5FC3;&amp;hmpl=&amp;hmcu=&amp;hmkw=&amp;hmci=" target="_blank">Minecraft Wiki</a><sup><a href="#fn_4" id="reffn_4">4</a></sup></li>
+<li>&#x60A8;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x9644;&#x52A0;&#x5305;&#x662F;&#x4EC0;&#x4E48;&#xFF0C;&#x4EE5;&#x53CA;&#x5982;&#x4F55;&#x6784;&#x5EFA;&#x4E00;&#x4E2A;&#x9644;&#x52A0;&#x5305;&#xFF0C;&#x8FD9;&#x4E00;&#x70B9;&#x81F3;&#x5173;&#x91CD;&#x8981;&#xFF0C;&#x672C;&#x6307;&#x5357;&#x7684;&#x524D;&#x7F6E;&#x77E5;&#x8BC6;&#x7AE0;&#x8282;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x4E86;&#x4ECB;&#x7ECD;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x524D;&#x5F80;&#x76F8;&#x5E94;&#x7AE0;&#x8282;&#x8FDB;&#x884C;&#x9605;&#x8BFB;&#x3002;</li>
+<li><p>&#x60A8;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x8D81;&#x624B;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x3002;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x4EE3;&#x7801;&#x7684;&#x7F16;&#x5199;&#x76EE;&#x524D;&#x5BF9;&#x7F16;&#x8F91;&#x5668;&#x5E76;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x7279;&#x522B;&#x7684;&#x8981;&#x6C42;&#xFF0C;&#x60A8;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8BB0;&#x4E8B;&#x672C;&#x6765;&#x7F16;&#x8F91;&#x60A8;&#x7684;&#x4EE3;&#x7801;&#xFF08;&#x4F46;&#x6781;&#x5176;&#x4E0D;&#x5EFA;&#x8BAE;&#x60A8;&#x8FD9;&#x4E48;&#x505A;&#xFF09;&#x3002;&#x5982;&#x679C;&#x60A8;&#x76EE;&#x524D;&#x6CA1;&#x6709;&#x8D81;&#x624B;&#x7684;&#x7F16;&#x8F91;&#x5668;&#xFF0C;&#x8FD9;&#x91CC;&#x5217;&#x51FA;&#x4E86;&#x90E8;&#x5206;&#x5E38;&#x89C1;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x4F9B;&#x60A8;&#x53C2;&#x8003;&#x3002;</p>
+</li>
+<li><p>&#x7535;&#x8111;&#x7AEF; </p>
+<ul>
+<li>Visual Studio&#x2014;&#x2014;&#x5B98;&#x65B9;&#x63A8;&#x8350;&#x3002;&#x529F;&#x80FD;&#x5F3A;&#x5927;&#xFF0C;&#x5927;&#x6982;&#x7387;&#x4EE5;&#x540E;&#x5B98;&#x65B9;&#x4F1A;&#x51FA;&#x76F8;&#x5173;&#x7684;&#x63D2;&#x4EF6;&#x652F;&#x6301;&#x3002;&#x793E;&#x533A;&#x7248;&#x514D;&#x8D39;&#xFF0C;&#x53EF;&#x6EE1;&#x8DB3;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x7684;&#x5F00;&#x53D1;&#x4F7F;&#x7528;&#x9700;&#x6C42;&#x3002;&#x4E13;&#x4E1A;&#x7248;&#x9700;&#x4ED8;&#x8D39;&#x3002;</li>
+<li>IDEA<sup><a href="#fn_5" id="reffn_5">5</a></sup>&#x2014;&#x2014;&#x529F;&#x80FD;&#x5F3A;&#x5927;&#x7684;&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF0C;&#x76EE;&#x524D;&#x867D;&#x7136;&#x6CA1;&#x6709;&#x76F8;&#x5173;&#x63D2;&#x4EF6;&#x652F;&#x6301;&#xFF0C;&#x4F46;&#x4F7F;&#x7528;&#x8D77;&#x6765;&#x624B;&#x611F;&#x4E0D;&#x9519;&#xFF0C;&#x4E14;&#x652F;&#x6301;&#x7F16;&#x8BD1;kotlin&#x8FDB;&#x884C;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x4EE3;&#x7801;&#x7F16;&#x5199;&#x3002;</li>
+<li>SublimeText&#x2014;&#x2014;&#x62E5;&#x6709;&#x4F18;&#x79C0;&#x7684;&#x4EE3;&#x7801;&#x8865;&#x5168;&#x529F;&#x80FD;&#x3001;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#x3001;&#x6F02;&#x4EAE;&#x7684;&#x7528;&#x6237;&#x754C;&#x9762;&#x548C;&#x5F3A;&#x5927;&#x7684;&#x529F;&#x80FD;&#x3002;</li>
+<li>Notepad++&#x2014;&#x2014;&#x4E00;&#x6B3E;&#x5C0F;&#x5DE7;&#x9AD8;&#x6548;&#x3001;&#x652F;&#x6301;27&#x79CD;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x5F00;&#x6E90;&#x8F6F;&#x4EF6; </li>
+</ul>
+</li>
+<li>&#x5B89;&#x5353;&#x7AEF; <ul>
+<li>920&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x2014;&#x2014;&#xFF08;&#x540D;&#x8A89;&#x63A8;&#x8350;&#xFF09;&#x8001;&#x724C;&#x7F16;&#x8F91;&#x5668;&#xFF0C;ModPE&#x65F6;&#x4EE3;&#x7684;&#x4E3B;&#x6D41;&#x7F16;&#x8F91;&#x5668;&#x4E4B;&#x4E00;&#x3002;&#x4F46;&#x7531;&#x4E8E;&#x8F83;&#x4E3A;&#x53E4;&#x677F;&#x4E14;&#x4E0D;&#x652F;&#x6301;&#x9AD8;&#x7248;&#x672C;&#x7CFB;&#x7EDF;&#xFF0C;&#x5E76;&#x4E0D;&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x3002; </li>
+<li>AIDE Web&#x2014;&#x2014;&#x529F;&#x80FD;&#x5F3A;&#x5927;&#x7684;&#x5B89;&#x5353;&#x7AEF;web&#x4EE3;&#x7801;&#x7F16;&#x8F91;&#x5668;&#xFF0C;&#x62E5;&#x6709;&#x8BED;&#x6CD5;&#x9AD8;&#x4EAE;&#xFF0C;&#x81EA;&#x52A8;&#x7F29;&#x8FDB;&#x3001;&#x4EE3;&#x7801;&#x8865;&#x5168;&#x3001;&#x683C;&#x5F0F;&#x6574;&#x7406;&#x3001;&#x4E0A;&#x5343;&#x884C;&#x4EE3;&#x7801;&#x4E0D;&#x5361;&#x987F;&#x7B49;&#x7B49;&#x7279;&#x70B9;&#x3002;</li>
+<li>Quick Edit&#x2014;&#x2014;&#x79FB;&#x52A8;&#x5E73;&#x53F0;&#x4E0A;&#x9AD8;&#x6548;&#xFF0C;&#x7A33;&#x5B9A;&#x548C;&#x5168;&#x529F;&#x80FD;&#x7684;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;,&#x5B83;&#x540C;&#x65F6;&#x4E3A;&#x624B;&#x673A;&#x548C;&#x5E73;&#x677F;&#x8BBE;&#x5907;&#x8FDB;&#x884C;&#x4E86;&#x4F18;&#x5316;&#x3002;Quick Edit&#x5BF9;&#x6027;&#x80FD;&#x548C;&#x7528;&#x6237;&#x4F53;&#x9A8C;&#x65B9;&#x9762;&#x8FDB;&#x884C;&#x4E86;&#x5927;&#x91CF;&#x7684;&#x4F18;&#x5316;&#xFF0C;&#x4F7F;&#x5F97;&#x5176;&#x901F;&#x5EA6;&#x548C;&#x8F93;&#x5165;&#x53CD;&#x9988;&#x66F4;&#x52A0;&#x4F18;&#x8D8A;&#x3002; </li>
+</ul>
+</li>
+<li>&#x82F9;&#x679C;&#x7AEF; <ul>
+<li>&#x4E2A;&#x4EBA;&#x5E76;&#x4E0D;&#x5177;&#x6709;&#x82F9;&#x679C;&#x7AEF;&#x7684;&#x5F00;&#x53D1;&#x7ECF;&#x9A8C;&#xFF0C;&#x6B22;&#x8FCE;&#x6709;&#x8FD9;&#x65B9;&#x9762;&#x7ECF;&#x9A8C;&#x7684;&#x5927;&#x4F6C;&#x53EF;&#x5728;<a href="https://space.bilibili.com/15122547" target="_blank">B&#x7AD9;</a>&#x4E0E;&#x672C;&#x6307;&#x5357;&#x76F8;&#x5173;&#x52A8;&#x6001;&#x7684;&#x8BC4;&#x8BBA;&#x533A;&#x8FDB;&#x884C;&#x8865;&#x5145;(&#xFF40;&#x30FB;&#x3C9;&#x30FB;&#xB4;)&#x3002;</li>
+</ul>
+</li>
+</ol>
+<blockquote id="fn_1">
+<sup>1</sup>. &#x5728;&#x6E38;&#x620F;&#x7248;&#x672C;&#x7B26;&#x5408;&#x4EE3;&#x7801;&#x8981;&#x6C42;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x540C;&#x4E00;&#x4EFD;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x4EE3;&#x7801;&#x53EF;&#x5728;&#x6240;&#x6709;&#x5E73;&#x53F0;&#x7684;&#x57FA;&#x5CA9;&#x7248;MC&#x4E0A;&#x4E0D;&#x7ECF;&#x8FC7;&#x4EFB;&#x4F55;&#x4FEE;&#x6539;&#x8FD0;&#x884C;<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. &#x57FA;&#x5CA9;&#x7248;&#x4F7F;&#x7528;C&#x8BED;&#x8A00;&#x7F16;&#x5199;&#x800C;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x4F7F;&#x7528;&#x7684;&#x662F;JavaScript&#x8BED;&#x8A00;<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. &#x4E00;&#x65B9;&#x9762;&#x5B98;&#x65B9;&#x8FD8;&#x5728;&#x5F00;&#x53D1;&#xFF0C;&#x53E6;&#x4E00;&#x65B9;&#x9762;&#x770B;&#x6837;&#x5B50;mojang&#x76EE;&#x524D;&#x7684;&#x5DE5;&#x4F5C;&#x91CD;&#x5FC3;&#x4E5F;&#x4E0D;&#x518D;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x4E0A;&#xFF0C;&#x4F46;&#x6709;&#x8C23;&#x4F20;&#x8BF4;mojang&#x8981;&#x653E;&#x5F03;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x5E94;&#x8BE5;&#x662F;&#x4E0D;&#x5927;&#x53EF;&#x80FD;&#x7684;<a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. Minecraft Wiki&#x4F4D;&#x4E8E;B&#x7AD9;&#x7684;&#x955C;&#x50CF;&#x7F51;&#x7AD9;&#xFF0C;&#x6BCF;&#x5468;&#x66F4;&#x65B0;&#x4E00;&#x6B21;&#x3002;&#x7531;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x5728;&#x56FD;&#x5185;&#xFF0C;&#x6240;&#x4EE5;&#x8BBF;&#x95EE;&#x901F;&#x5EA6;&#x8F83;&#x5FEB;&#xFF0C;&#x6781;&#x529B;&#x63A8;&#x8350;<a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. &#x5B66;&#x751F;&#x53EF;&#x51ED;&#x76F8;&#x5173;&#x8BC1;&#x4EF6;&#x5728;&#x5176;&#x5B98;&#x7F51;&#x4E0A;&#x7533;&#x8BF7;&#x5B66;&#x751F;&#x8D26;&#x6237;&#x514D;&#x8D39;&#x4F7F;&#x7528;&#x5176;&#x516C;&#x53F8;&#x65D7;&#x4E0B;&#x6240;&#x6709;&#x4EA7;&#x54C1;&#x3002;<a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#x21A9;</a>
+</blockquote>
+=======
+                                <h1 id="&#x4F55;&#x4E3A;&#x811A;&#x672C;&#x5F15;&#x64CE;">&#x4F55;&#x4E3A;&#x811A;&#x672C;&#x5F15;&#x64CE;</h1>
+<p>&#x672C;&#x8282;&#x6211;&#x4EEC;&#x6765;&#x8C08;&#x8C08;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x7A76;&#x7ADF;&#x662F;&#x4EC0;&#x4E48;&#x3002;</p>
+<p>&#x8981;&#x8BE6;&#x5C3D;&#x7684;&#x9610;&#x8FF0;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x53EF;&#x80FD;&#x8981;&#x6D89;&#x53CA;&#x5230;&#x66F4;&#x591A;&#x6DF1;&#x5C42;&#x6B21;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x8003;&#x8651;&#x5230;&#x76EE;&#x6807;&#x8BFB;&#x8005;&#x7684;&#x6C34;&#x5E73;&#xFF0C;&#x8FD9;&#x91CC;&#x5E76;&#x4E0D;&#x4F1A;&#x6D89;&#x53CA;&#x5230;&#x592A;&#x8FC7;&#x5E95;&#x5C42;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x8BF7;&#x5404;&#x4F4D;&#x653E;&#x5FC3;&#x3002;</p>
+<h3 id="&#x57FA;&#x5CA9;&#x7248;">&#x57FA;&#x5CA9;&#x7248;</h3>
+<p>&#x5728;&#x6B63;&#x5F0F;&#x5F00;&#x59CB;&#x626F;&#x811A;&#x672C;&#x5F15;&#x64CE;&#x4E4B;&#x524D;&#xFF0C;&#x6211;&#x4EEC;&#x82B1;&#x70B9;&#x65F6;&#x95F4;&#x5148;&#x6765;&#x4E86;&#x89E3;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x57FA;&#x5CA9;&#x7248;</p>
+<h3 id="&#x4ECE;mod&#x5230;&#x811A;&#x672C;&#x5F15;&#x64CE;">&#x4ECE;Mod&#x5230;&#x811A;&#x672C;&#x5F15;&#x64CE;</h3>
+<p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x4ECE;Java&#x7248;&#x4E0A;&#x7684;Mod&#x8BF4;&#x8D77;&#x3002;</p>
+<p>&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;MC&#x73A9;&#x5BB6;&#x6765;&#x8BF4;&#xFF0C;Mod&#x8FD9;&#x4E2A;&#x540D;&#x8BCD;&#x60F3;&#x5FC5;&#x5404;&#x4F4D;&#x90FD;&#x4E0D;&#x964C;&#x751F;&#x3002;Mod&#xFF0C;&#x4E00;&#x5B9A;&#x7A0B;&#x5EA6;&#x4E0A;&#x53EF;&#x4EE5;&#x8BF4;&#x662F;MC&#x7684;&#x751F;&#x547D;&#x529B;&#x6E90;&#x6CC9;&#x4E5F;&#x4E0D;&#x4E3A;&#x8FC7;&#x3002;&#x5B83;&#x8D4B;&#x4E88;&#x4E86;MC&#x65E0;&#x9650;&#x7684;&#x53EF;&#x80FD;&#x6027;&#xFF0C;&#x73A9;&#x5BB6;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7F16;&#x5199;Mod&#x6765;&#x5411;&#x6E38;&#x620F;&#x4E2D;&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x559C;&#x6B22;&#x7684;&#x4E1C;&#x897F;&#x6216;&#x662F;&#x5728;&#x539F;&#x7248;&#x57FA;&#x7840;&#x4E0A;&#x8BBE;&#x8BA1;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5168;&#x65B0;&#x7684;&#x6E38;&#x620F;&#x673A;&#x5236;&#x7B49;&#x7B49;&#x3002;</p>
+<p>&#x81EA;&#x57FA;&#x5CA9;&#x7248;&#x95EE;&#x4E16;&#x4EE5;&#x6765;</p>
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+<<<<<<< HEAD
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 导论">
+=======
+                <a href="minecraft_working_model.html" class="navigation navigation-prev " aria-label="Previous page: Minecraft运作模型">
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+<<<<<<< HEAD
+                <a href="minecraft_working_model.html" class="navigation navigation-next " aria-label="Next page: Minecraft运作模型">
+=======
+                <a href="history.html" class="navigation navigation-next " aria-label="Next page: 脚本引擎发展浅述">
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+<<<<<<< HEAD
+            gitbook.page.hasChanged({"page":{"title":"脚本引擎概论","level":"2.1.1","depth":2,"next":{"title":"Minecraft运作模型","level":"2.1.1.1","depth":3,"path":"introduction/minecraft_working_model.md","ref":"introduction/minecraft_working_model.md","articles":[]},"previous":{"title":"导论","level":"2.1","depth":1,"path":"introduction/README.md","ref":"introduction/README.md","articles":[{"title":"脚本引擎概论","level":"2.1.1","depth":2,"path":"introduction/introduction.md","ref":"introduction/introduction.md","articles":[{"title":"Minecraft运作模型","level":"2.1.1.1","depth":3,"path":"introduction/minecraft_working_model.md","ref":"introduction/minecraft_working_model.md","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"introduction/introduction.md","mtime":"2020-06-12T01:04:28.051Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-12T01:04:51.193Z"},"basePath":"..","book":{"language":""}});
+=======
+            gitbook.page.hasChanged({"page":{"title":"何为脚本引擎","level":"2.1.1.1","depth":3,"next":{"title":"脚本引擎发展浅述","level":"2.1.1.2","depth":3,"path":"introduction/history.md","ref":"introduction/history.md","articles":[]},"previous":{"title":"Minecraft运作模型","level":"2.1.1","depth":2,"path":"introduction/minecraft_working_model.md","ref":"introduction/minecraft_working_model.md","articles":[{"title":"何为脚本引擎","level":"2.1.1.1","depth":3,"path":"introduction/introduction.md","ref":"introduction/introduction.md","articles":[]},{"title":"脚本引擎发展浅述","level":"2.1.1.2","depth":3,"path":"introduction/history.md","ref":"introduction/history.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"introduction/introduction.md","mtime":"2020-06-11T09:19:56.759Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-11T14:02:30.750Z"},"basePath":"..","book":{"language":""}});
+>>>>>>> 0fed1d2eae9df27e7f3f31ca45bd032f8b96309e
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
